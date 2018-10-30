@@ -11,7 +11,7 @@ export class CarsRoutingModule {
 
   private static routes: Routes = [
     {
-      path: 'cars', component: CarsComponent, children: [
+      path: '', component: CarsComponent, children: [
         {path: ':model', component: CarComponent}
       ]
     }
